@@ -13,8 +13,30 @@ img{
   margin-bottom: 2%;
 }
 
-p:nth-of-type(2){
+.card-body p:nth-of-type(2){
     text-align: center;
+}
+
+#contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 5%;
+}
+
+#contact-info p{
+    font-size: 1.25rem;
+}
+
+#contact-info .card{
+    border-radius: 3%;
+    padding: 5%;
+}
+
+.info{
+    color: rgb(107, 110, 110);
 }
 
 .row{
