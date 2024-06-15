@@ -1,5 +1,6 @@
 img{
   width: 60%;
+  margin-top: 1%;
   align-self: center;
 }
 
@@ -17,26 +18,45 @@ img{
     text-align: center;
 }
 
+hr{
+    width: 90%;
+    align-self: center;
+}
+
 #contact-info{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-content: center;
     text-align: center;
-    padding: 5%;
-}
-
-#contact-info p{
-    font-size: 1.25rem;
+    padding: 0;
 }
 
 #contact-info .card{
-    border-radius: 3%;
-    padding: 5%;
+    margin-top: 2%;
+    border-top: transparent;
+    border-bottom: transparent;
+    width: 100%;
+}
+
+#head{
+    margin-right: 0;
+    border-left: transparent;
+    border-right: 1px solid black;
+}
+
+#phone{
+    margin-left: 0;
+    border-right: transparent;
+    border-left: 1px solid black;
 }
 
 .info{
-    color: rgb(107, 110, 110);
+    color: rgb(100,149,237);
+    line-height: 90%;
+}
+
+.dept{
+   font-weight: 500;
 }
 
 .row{
@@ -52,6 +72,7 @@ img{
 .container{
   justify-content: center;
 }
+
 .details{
   font-size: 20px;
   color: rgb(97, 64, 128);
