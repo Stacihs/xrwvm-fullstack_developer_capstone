@@ -16,7 +16,7 @@ urlpatterns = [
 
     # path to get cars
     path(route='get_cars', view=views.get_cars, name='getcars'),
-  
+
     # path for dealer reviews
     path(
             route='reviews/dealer/<int:dealer_id>',
